@@ -1,0 +1,476 @@
+/* Natural Box Model */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *after {
+    box-sizing: inherit;
+}
+
+/*
+UTILITIES
+*/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+body {
+    width: 100%;
+    background-color: lavenderblush;
+    height: 1000px;
+  
+}
+
+.container {
+    width: 1000px;
+    margin: 35px auto;
+  
+    padding-top: 10px;
+    background-color: lavenderblush;
+    
+}
+
+
+main {
+    position: relative;
+    height: 1400px;
+    background: white;
+    line-height: auto;
+    
+}
+
+a {
+  text-decoration: none;
+}
+aside {
+    float: right;
+    background:white;
+    line-height: auto;
+    width: 31%;
+}
+
+
+footer { 
+    align-items: bottom;
+    background:white; /* Old browsers */
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(270deg,  rgb(224, 3, 3) 68%, rgb(255, 136, 24) 95% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.0em;
+    margin: 1.0em 0; 
+    
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.0em;
+  margin: 1.0em 0; 
+  
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1.0em;
+    font-size: 18px;
+    margin: 1.0em 0; 
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 1.0em;
+  margin: 1.0em 0; 
+  
+}
+
+
+.navbar {
+    font-family: 'montserrat' sans-serif;
+    overflow: hidden;
+    padding: 0px 0px;
+    background: orange;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    font-family: 'montserrat' sans-serif;
+    font-weight: 100%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    font-family: 'montserrat' sans-serif;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: yellow;
+    
+  }
+
+
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 127px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    font-family: 'montserrat' sans-serif;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background: rgb(255, 255, 119);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  small {
+    display: block;
+    color: red;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+p {
+  font-family: 'montserrat', sans-serif;
+  line-height: 1.3em;
+  margin: 1.0em 0;
+  font-size: 16px;
+}
+
+.intro {
+
+  margin-top: 10px;
+  display:inline-block;
+  width: 60%;
+  background: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  
+  
+}
+div.research-image {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  width: 350px;
+  height: 260px;
+  background-color: lightblue;
+}
+
+span.nicolasnewinfo {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.research-rectangle1 {
+  position: absolute;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  border-radius: 4px;
+  top: 420px;
+
+  height: 405px;
+  width: 320px;
+  left: 10px;
+  background: rgb(253, 187, 63, 0.5);
+  font-style: 'lato' 'sans-serif';
+  font-size: 20px;
+  text-align: center;
+}
+
+div.research-rectangle2 {
+  position: absolute;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+    border-radius: 4px;
+    top: 420px;
+ 
+    height: 405px;
+    width: 320px;
+    left: 340px;
+    background: rgb(254,187,187); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(254,187,187,1) 0%, rgba(255,92,92,1) 0%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(254,187,187,1) 0%,rgba(255,92,92,1) 0%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(254,187,187,1) 0%,rgba(255,92,92,1) 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+    font-style: 'lato' 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+div.research-rectangle3 {
+  position: absolute;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+    border-radius: 4px;
+    top: 420px;
+ 
+    height: 405px;
+    width: 320px;
+    left: 670px;
+    background:  rgb(210,255,82); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+    font-style: 'lato' 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+div.research-rectangle4 {
+  position: absolute;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+    border-radius: 4px;
+    top: 840px;
+ 
+    height: 405px;
+    width: 320px;
+    left: 10px;
+    background: rgb(178,225,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=0 ); /* IE6-9 */
+    font-style: 'lato' 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+div.research-rectangle5 {
+  position: absolute;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+    border-radius: 4px;
+    top: 840px;
+ 
+    height: 405px;
+    width: 320px;
+    left: 340px;
+    background: rgb(206,220,231); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+   
+    font-style: 'lato' 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+div.research-rectangle6 {
+  position: absolute;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+    border-radius: 4px;
+    top: 840px;
+ 
+    height: 405px;
+    width: 320px;
+    left: 670px;
+    background: #ffb76b; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb76b 0%, #ff7c00 100%, #ff7f04 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb76b 0%,#ff7c00 100%,#ff7f04 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb76b 0%,#ff7c00 100%,#ff7f04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+   
+   
+    font-style: 'lato' 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+div.people-main {
+  position: relative;
+    height: 1400px;
+    background: white;
+    line-height: auto;
+}
+
+div.people-list {
+  position: absolute;
+  height: 1400px;
+  width: 1000px;
+  background: whitesmoke;
+ 
+}
+
+div.people-rectangle {
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  background: lightgoldenrodyellow;
+
+}
+
+div.people-rectangle2 {
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  top: 420px;
+  background: lightgoldenrodyellow;
+}
+
+
+div.people-rectangle3 {
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  top: 420px;
+  background: lightgoldenrodyellow;
+}
+
+
+div.people-rectangle4 {
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  top: 420px;
+  background: lightgoldenrodyellow;
+}
+
+
+div.image-location {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  width: 60%;
+  border-radius: 50%;;
+}
+
+div.people-description {
+  position: absolute;
+  background: yellowgreen;
+  left: 500px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+}
+
+div.people-description2 {
+  position: absolute;
+  background: rgb(255, 204, 211);
+  left: 500px;
+  top: 0px;
+  text-align: center;
+  height: 400px;
+  width: 500px;
+}
+
+div.people-description3 {
+  position: absolute;
+  background: rgb(255, 204, 211);
+  left: 500px;
+  top: 0px;
+  text-align: center;
+  height: 400px;
+  width: 500px;
+}
+
+div.people-description4 {
+  position: absolute;
+  background: rgb(255, 204, 211);
+  left: 500px;
+  top: 0px;
+  text-align: center;
+  height: 400px;
+  width: 500px;
+}
+
+div.people-information {
+  position: absolute;
+  background: yellowgreen;
+  left: 500px;
+  top: 40px;
+  text-align: left;
+  height: 360px;
+  width: 500px;
+}
+
+div.people-information2 {
+  position: absolute;
+  background: rgb(255, 204, 211);
+  left: 500px;
+  top: 40px;
+  text-align: left;
+  height: 360px;
+  width: 500px;
+}
+
+div.people-information3 {
+  position: absolute;
+  background: rgb(255, 204, 211);
+  left: 500px;
+  top: 40px;
+  text-align: left;
+  height: 360px;
+  width: 500px;
+}
+
+div.people-information4 {
+  position: absolute;
+  background: rgb(255, 204, 211);
+  left: 500px;
+  top: 40px;
+  text-align: left;
+  height: 360px;
+  width: 500px;
+}
+
+span.name-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+}
