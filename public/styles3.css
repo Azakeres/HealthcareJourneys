@@ -394,6 +394,8 @@ div.image-location {
     height: 100px;
     position: relative;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
 }
 
