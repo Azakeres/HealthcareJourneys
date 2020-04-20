@@ -390,14 +390,11 @@ div.people-rectangle4 {
 
 
 div.image-location {
-  position: absolute;
-  top: 80px;
-  left: 100px;
-  width: 60%;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 div.people-description {
