@@ -346,6 +346,21 @@ div.people-list {
  
 }
 
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-IMG {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+}
+
 div.people-rectangle {
   position: absolute;
   height: 400px;
