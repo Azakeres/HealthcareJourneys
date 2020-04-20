@@ -351,7 +351,7 @@ div.people-list {
   margin: 0 auto;
   margin-left: -25%; //centers the image
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 div.people-rectangle {
