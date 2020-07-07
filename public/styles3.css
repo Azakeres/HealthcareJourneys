@@ -1,7 +1,13 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+
+
 /* Natural Box Model */
 html {
     box-sizing: border-box;
 }
+
 
 *, *:before, *after {
     box-sizing: inherit;
@@ -33,12 +39,9 @@ body {
 }
 
 .container {
-    width: 1000px;
-    margin: 35px auto;
-  
-    padding-top: 10px;
+    width: 100%;
+    margin: auto;
     background-color: lavenderblush;
-    
 }
 
 
@@ -47,97 +50,41 @@ main {
     height: 1400px;
     background: white;
     line-height: auto;
-    
 }
 
 a {
   text-decoration: none;
+
 }
-aside {
-    float: right;
-    background:white;
-    line-height: auto;
-    width: 31%;
-}
-
-
-footer { 
-    align-items: bottom;
-    background:white; /* Old browsers */
-    
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(270deg,  rgb(224, 3, 3) 68%, rgb(255, 136, 24) 95% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 1.0em;
-    margin: 1.0em 0; 
-    
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.0em;
-  margin: 1.0em 0; 
-  
-}
-
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    line-height: 1.0em;
-    font-size: 18px;
-    margin: 1.0em 0; 
-}
-
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  line-height: 1.0em;
-  margin: 1.0em 0; 
-  
-}
-
 
 .navbar {
-    font-family: 'montserrat' sans-serif;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
     overflow: hidden;
-    padding: 0px 0px;
-    background: orange;
+    background: #89bf93;
+    height: 10em;
+    width: 100%;
   }
   
   .navbar a {
-    float: left;
+    float: right;
     font-size: 16px;
-    font-family: 'montserrat' sans-serif;
+    font-family: "Arial Black", Gadget, sans-serif
+    font-style: normal;
+    font-weight: normal;
     font-weight: 100%;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
+    height: 3em;
+    line-height: 3em;
   }
+
+
   
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;
-    font-family: 'montserrat' sans-serif;  
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover{
     background-color: yellow;
     
   }
@@ -171,15 +118,6 @@ h4 {
     display: block;
   }
 
-  small {
-    display: block;
-    color: red;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-
 p {
   font-family: 'montserrat', sans-serif;
   line-height: 1.3em;
@@ -212,11 +150,6 @@ div.research-image {
   background-color: lightblue;
 }
 
-span.nicolasnewinfo {
-  font-size: 22px;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-}
 
 div.research-rectangle1 {
   position: absolute;
