@@ -1,0 +1,129 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-show-scale-controls: true;
+	--web-actual-size-on-double-click: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920___1;
+}
+
+#Web_1920___1 {
+	position: absolute;
+	transform: translateX(-10%);
+	width: auto;
+	height: auto;
+	max-height: auto;
+	background-color: rgba(255,255,255,1);
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-show-scale-controls: true;
+	--web-actual-size-on-double-click: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	margin-bottom: 200px;
+}
+.Group_Title {
+	padding-top: 40px;
+	font-family: American Typewriter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: -100px;
+}
+
+.Group_Title#Alumni {
+
+	padding-top: 180px;
+}
+
+#Group_1 {
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+
+
+.Rectangle_1 {
+	position: absolute;
+	background-color: rgba(88,185,214,0.9);
+	width: 290px; 
+	height: 280px;
+	left: 15px;
+	bottom: 10px;
+	float:left;
+	overflow: visible;
+	box-shadow:  0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+	border-bottom-left-radius: 15px;
+}
+
+.Rectangle_2 {
+	position: relative;
+	width: 690px; 
+	height: 280px;
+	bottom: 10px;
+	right: 5px;
+	float: right;
+	background-color: rgba(253,158,99,0.9);
+	overflow: visible;
+	box-shadow:  0 0 8px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 8px  3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 8px rgba(0,0,0,0.6);
+	border-top-right-radius: 15px;
+
+}
+
+
+#Member_Photo {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	top: 25px;
+	left: 72.5px;
+	overflow: hidden;
+}
+
+#Member_Name {
+	top: 20px;
+	position: relative;
+	width: 290px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(72,60,56,1);
+}
+
+#Member_Description {
+	position: relative;
+	overflow: hidden;
+	width: 670px;
+	height: 290px;
+	left: 10px;	
+	line-height: 35px;
+	text-align: left;
+	font-family: American Typewriter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(57,53,53,1);
+	letter-spacing: 0.01px;
+	margin-bottom: 40px;
+}
+
+
