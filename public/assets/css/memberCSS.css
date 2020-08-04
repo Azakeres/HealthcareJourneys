@@ -29,6 +29,7 @@
 	--web-enable-deep-linking: true;
 	margin-bottom: 200px;
 }
+
 .Group_Title {
 	padding-top: 40px;
 	font-family: American Typewriter;
@@ -49,6 +50,11 @@
 	overflow: hidden;
 	position: relative;
 	margin-bottom: -100px;
+}
+
+.Members{
+	position: static;
+	z-index: auto;
 }
 
 
@@ -136,7 +142,62 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: rgba(72,60,56,1);
+	color: rgba(72,60,56,0.9);
 }
 
+#Social_Media {
+	position: relative;
+	width: 80px;
+	height: 60px;
+	left: 90px;
+}
+
+#Linkedin {
+	position: relative;
+	width: 20px;
+	height: 16px;
+	top: 20px;
+	left: 97px;
+	overflow: visible;
+	z-index: 1;
+}
+#Instagram {
+	position: relative;
+	width: 17px;
+	height: 17px;
+	top: 20px;
+	left: 97px;
+	overflow: visible;
+	z-index: 1;
+}
+
+#Facebook{
+	position: relative;
+	width: 17px;
+	height: 17px;
+	top: 20px;
+	left: 97px;
+	overflow: visible;
+	z-index: 1;
+}
+
+#PDF {
+	position: relative;
+	width: 17px;
+	height: 17px;
+	top: 20px;
+	left: 97px;
+	overflow: visible;
+	z-index: 1;
+}
+
+#Twitter {
+	position: relative;
+	width: 17px;
+	height: 17px;
+	top: 20px;
+	left: 97px;
+	overflow: visible;
+	z-index: 1;
+}
 
